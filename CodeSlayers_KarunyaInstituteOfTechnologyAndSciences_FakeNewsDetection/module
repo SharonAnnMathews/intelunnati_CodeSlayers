@@ -1,1 +1,22 @@
-
+	Fake news detection is the process of identifying and classifying false or misleading information 
+presented as news. With the widespread availability of social media and the internet, fake news has become 
+a growing problem that can have serious consequences. It can spread quickly, influence public opinion, and 
+even impact political and social outcomes.
+The detection of fake news is crucial in maintaining the integrity of the news and information we 
+receive. Detecting fake news involves using specialized techniques and algorithms to identify patterns and 
+markers that are indicative of fake news. These methods involve analysing language, content, and sources 
+to determine the credibility and accuracy of the information presented.
+Overall, fake news detection is an essential tool in protecting the public from misinformation and 
+ensuring that news and information are accurate and trustworthy.
+	We have used two datasets, one with real news articles and the other with fake news articles. 
+We have concatenated these datasets and added a new column "label" to identify whether the news article 
+is real or fake.
+We have visualized the distribution of news articles across different subjects using a count plot.
+	Logistic regression is a popular model for binary classification problems. 
+It uses a logistic function to model the probability of the output class. We have used logistic regression 
+because it is a simple and effective model for binary classification problems. 
+It is also easy to interpret and understand the results.
+	We have used the accuracy score to evaluate the performance of the model on both the training and 
+testing sets. 
+We have also used the confusion matrix to understand the performance of the model in classifying the news
+articles as real or fake.
